@@ -1,0 +1,13 @@
+<p class="title">
+  {{ $ctrl.title }}
+</p>
+<div class="input-field" ng-click="$ctrl.onFieldClick()">
+    <email-block ng-repeat="email in $ctrl.emails track by $index"
+                 email="email" on-delete="$ctrl.removeEmail($index)">
+    </email-block>
+    <input type="text" placeholder="{{ $ctrl.placeholder }}"
+           ng-model="$ctrl.text"
+           ng-blur="$ctrl.onBlur()"
+           ng-keypress="$ctrl.onKeypress($event)"
+           ng-paste="$ctrl.onPaste($event)">
+</div>

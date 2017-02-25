@@ -1,0 +1,27 @@
+emails-editor {
+  display: block;
+  background: #F5F5F5;
+  padding: 20px 40px 30px;
+}
+
+emails-editor > .title {
+  margin: 0;
+  height: 20px;
+  padding: 12px 0 38px;
+  font-size: 19px;
+}
+
+emails-editor > .input-field {
+  cursor: text;
+  background: white;
+  border-top: 1px solid;
+  border-color: #BBBBBB;
+  height: 100px;
+  overflow: auto;
+}
+
+emails-editor > .input-field > input {
+  margin: 8px;
+  border: none;
+  outline: none;
+}

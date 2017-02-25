@@ -1,0 +1,23 @@
+email-block {
+  display: inline-block;
+  background-color: #D9E8FF;
+  border-radius: 10px;
+  padding: 3px 8px;
+  margin: 8px;
+  font-size: 13px;
+  cursor: default;
+}
+
+email-block .email {
+  vertical-align: top;
+}
+
+email-block .email.invalid {
+  border-bottom: 1px solid;
+  border-color: red;
+}
+
+email-block .remove {
+  cursor: pointer;
+  font-size: 14px;
+}
