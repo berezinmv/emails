@@ -1,0 +1,9 @@
+node_modules/
+example/
+src/
+.babelrc
+.gitignore
+.travis.yml
+webpack.config.js
+webpack.config.example.js
+yarn.lock
