@@ -2,7 +2,8 @@ module.exports = {
   entry: './src/emails-editor/index.js',
   output: {
     filename: 'emails-editor.js',
-    path: './dist'
+    path: './dist',
+    libraryTarget: 'umd'
   },
   module: {
     loaders: [
