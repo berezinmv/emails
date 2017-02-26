@@ -12,7 +12,7 @@
   },
   "author": "Maxim Berezin <berezin.mvdev@yahoo.com>",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "angular": "^1.6.2",
     "autoprefixer-loader": "^3.2.0",
     "babel-core": "^6.23.1",
