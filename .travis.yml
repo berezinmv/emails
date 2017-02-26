@@ -3,7 +3,6 @@ node_js:
 - '5'
 
 deploy:
-  skip_cleanup: true
   provider: npm
   email: berezin.mvdev@yahoo.com
   api_key:
