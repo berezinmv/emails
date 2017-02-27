@@ -9,7 +9,7 @@ script:
 - npm run build
 
 deploy:
-  scip_cleanup: true
+  skip_cleanup: true
   provider: npm
   email: berezin.mvdev@yahoo.com
   api_key:
