@@ -1,14 +1,14 @@
 language: node_js
 node_js:
 - '5'
-
 install:
-  - npm install
-
+- npm install
 script:
-  - npm run build
-
+- npm run build
 deploy:
-  skip_cleanup: true
   provider: npm
   email: berezin.mvdev@yahoo.com
+  api_key:
+    secure: YNVXGa9yIKbmYVp73QJ5+d/ouXRlRSNxQKxiHPn0cbnciCQDiHhzFe83CiAIjpssbcUxTecpSmLbdgvQ76UxjtDUO9GbRgZwhejDDQwhrxBwLUqqddF5QNsUHOFdf+nNFGFXj0w35ncn/lQzKN7hh3ps8xukC6pXmctLDPKHmazh22XVbJVDnlapX2fPN7mnO4TjbwdWrgKZikkvd4jZmZIJiY24HbDOY47u4FopfYpKpYCN9zXojDywBN0HWC2e1W0G2ikCn4oSij3D7SdZ4aCwErupSb//oRbpthqXJlszIZMB7YXH/smDNIdybNIll1tGCM1B2Xg0/hYvtk26qshhcHHLWNk+TrnSRjzYv+rKg1J5SoRpGr4O4v+hUoh5hkaCIAVQfl/iha9OAVr1lJojYE+qWBqhoW5z4YSv2uIoaYujWBJBqiBZ208kBYYcH2FV23GiFIPu25vVdMTSBORl9BfEFEiI21aMyUy34CGHPbzowTjFXkGKGyYWlKEOopaT8in+4dDn1g8QPnFP+fBPG0WN0a6DXw9+yFamBACsLpRjdDexUbPB+XFQoqJYqC2l6EEW1WGJRvLLJJ+5dLg6CZG8jtO/3mm0JfrUl7PGeCTdoyGlhd8/P6MumpH7iAG9KZyK2mnlYkbznpA6IDwkoY/lNPs5L46IbInSj7E=
+  on:
+    repo: berezinmv/emails
