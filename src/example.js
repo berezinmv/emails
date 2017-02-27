@@ -7,7 +7,7 @@ import EmailsEditor from './emails-editor';
 angular.module('example', [EmailsEditor])
   .controller('ExampleController', ['$scope', function ($scope) {
     $scope.emails = ['sidorov@mail.ru'];
-    $scope.title = 'Share "Board name" with others';
+    $scope.title = 'Share “Board name” with others';
     $scope.placeholder = 'add more people...';
 
     $scope.onChange = function (emails) {

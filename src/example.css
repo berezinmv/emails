@@ -1,6 +1,16 @@
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'MyriadPro', sans-serif;
 }
 
 .example {
@@ -10,10 +20,11 @@ body {
 
 .example > button {
   min-width: 100px;
-  padding: 7px 11px;
+  height: 30px;
+  padding: 8px 11px;
   margin: 30px 8px;
-  font-family: 'Roboto';
-  font-size: 13px;
+  font-family: 'MyriadPro', sans-serif;
+  font-size: 14px;
   border-radius: 2px;
   background-color: #6699FF;
   color: white;
