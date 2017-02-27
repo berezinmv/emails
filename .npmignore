@@ -1,5 +1,6 @@
 node_modules/
 example/
+fonts/
 src/
 .babelrc
 .gitignore

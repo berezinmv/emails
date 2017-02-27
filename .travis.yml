@@ -1,11 +1,15 @@
 language: node_js
 node_js:
 - '5'
+
 install:
 - npm install
+
 script:
 - npm run build
+
 deploy:
+  scip_cleanup: true
   provider: npm
   email: berezin.mvdev@yahoo.com
   api_key:
