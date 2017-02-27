@@ -5,7 +5,7 @@
 npm install emails-editor
 ```
 
-# Usage
+## Usage
 ```javascript
 import EmailsEditor from 'emails-editor';
 
